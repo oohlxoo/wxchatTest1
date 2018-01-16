@@ -1,0 +1,9 @@
+<!--wxml是编写小程序骨架的文件-->
+<view class="container">
+    <image class='user-icon' src="../images/default.png"></image>
+    <text class="user-name">hello,<text style='color:red'>路小雨</text></text>
+    <view class="moto-container" >
+    <!-- catchtap不会产生冒泡事件， bindtap 会产生冒泡事件 -->
+        <text class="moto" catchtap="opengHome">开启小程序之旅</text>
+    </view>
+</view>
